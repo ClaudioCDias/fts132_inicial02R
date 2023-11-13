@@ -41,7 +41,7 @@ def testar_calcular_area_do_circulo(raio, resultado_esperado):
 # ler dados de um csv para usar no teste seguinte
 def ler_dados_csv():
     dados_csv = []                               # Criação de uma lista vazia
-    nome_arquivo = 'C:/Users/Claudio\PycharmProjects/fts132_inicial/test/db/massa_caixa.csv'     # local e nome do arquivo de massa
+    nome_arquivo = 'C:/Users\Claudio C. Dias\PycharmProjects/fts132_inicial/test\db\massa_caixa.csv'     # local e nome do arquivo de massa
     try:
         with open(nome_arquivo, newline='') as csvfile: # repetir a leitura até o fim do arquivo
             campos = csv.reader(csvfile, delimiter=',')
