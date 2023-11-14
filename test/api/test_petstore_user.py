@@ -64,6 +64,7 @@ def testar_consultar_usuario():
     assert corpo_da_resposta['username'] == username
     assert corpo_da_resposta['email'] == email
     assert corpo_da_resposta['phone'] == phone
+
     print(f'Token: {token_usuario}')
 
 def testar_consultar_usuario_com_token(token_usuario):
@@ -202,7 +203,7 @@ def testar_login_do_usuario():
     valor = frase[7:18]  # 167 Extraia o R$ 1.987,65
     print(f'O valor é: {valor}')
 
-# TuDO: Controlar o tempo entre as requisições na sequência
+#TODO: Controlar o tempo entre as requisições na sequência
 '''
 def testar_sequencia_de_testes():
     testar_criar_usuario()
