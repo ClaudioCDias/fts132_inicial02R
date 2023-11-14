@@ -97,6 +97,7 @@ def testar_consultar_usuario_com_token(token_usuario):
     assert corpo_da_resposta['username'] == username
     assert corpo_da_resposta['email'] == email
     assert corpo_da_resposta['phone'] == phone
+
     print(f'Token: {token_usuario}')
 
 def testar_alterar_usuario():
