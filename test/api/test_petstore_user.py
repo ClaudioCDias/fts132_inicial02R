@@ -68,7 +68,7 @@ def testar_consultar_usuario():
 
     print(f'Token: {token_usuario}')
 
-def testar_consultar_usuario_com_token(token_usuario):
+def consultar_usuario_com_token(token_usuario):
     # - Configura
     status_code = 200
     id = 1017
@@ -198,7 +198,7 @@ def testar_login_do_usuario():
     print(f'A mensagem recebida é: {mensagem_recebida}')
     token_usuario = mensagem_recebida[23:37]
     print(f'O token do usuário é: {token_usuario}')
-    testar_consultar_usuario_com_token(token_usuario)
+    consultar_usuario_com_token(token_usuario)
 
     # Exemplo
     frase = 'Saldo: R$ 1.987,65'  # 165
