@@ -1,5 +1,6 @@
 # Bibliotecas
-import pytest # Framework de Teste Unitário  - Engine
+import time
+import pytest   # Framework de Teste Unitário  - Engine
 import requests # Framework de Teste de API - Requests / Responses
 
 # Endereço da API
